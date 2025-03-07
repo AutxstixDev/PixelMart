@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { ChevronRight } from 'lucide-react';
 
 const Hero: React.FC = () => {
@@ -29,12 +30,12 @@ const Hero: React.FC = () => {
               Shop Now
               <ChevronRight className="ml-2 h-5 w-5" />
             </a>
-            <a 
-              href="#" 
+            <Link 
+              to="/deals" 
               className="bg-retro-primary hover:bg-retro-secondary text-white font-pixel text-sm py-3 px-6 shadow-pixel transition-all duration-300 inline-flex items-center justify-center"
             >
               View Deals
-            </a>
+            </Link>
           </div>
         </div>
       </div>

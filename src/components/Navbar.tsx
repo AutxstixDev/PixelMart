@@ -46,9 +46,6 @@ const Navbar: React.FC<NavbarProps> = ({ onCartClick, user }) => {
             <Link to="/shop" className="font-pixel text-sm hover:text-retro-accent transition-colors">
               Shop
             </Link>
-            <Link to="/new" className="font-pixel text-sm hover:text-retro-accent transition-colors">
-              New
-            </Link>
             <Link to="/deals" className="font-pixel text-sm hover:text-retro-accent transition-colors">
               Deals
             </Link>
@@ -111,9 +108,6 @@ const Navbar: React.FC<NavbarProps> = ({ onCartClick, user }) => {
             </Link>
             <Link to="/shop" className="font-pixel text-sm block px-3 py-2 rounded-md hover:bg-retro-dark transition-colors">
               Shop
-            </Link>
-            <Link to="/new" className="font-pixel text-sm block px-3 py-2 rounded-md hover:bg-retro-dark transition-colors">
-              New
             </Link>
             <Link to="/deals" className="font-pixel text-sm block px-3 py-2 rounded-md hover:bg-retro-dark transition-colors">
               Deals

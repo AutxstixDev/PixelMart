@@ -2,6 +2,7 @@ export interface Game {
   id: number;
   title: string;
   price: number;
+  discountedPrice?: number; // ✅ Make it optional to avoid errors
   imageUrl: string;
   platform: string;
   genre: string;

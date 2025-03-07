@@ -5,6 +5,7 @@ export const fallbackGames: Game[] = [
     id: 1,
     title: "Super Mario Bros.",
     price: 29.99,
+    discountedPrice: 24.99, // Discounted price
     imageUrl: "https://mediaproxy.tvtropes.org/width/1200/https://static.tvtropes.org/pmwiki/pub/images/super_mario_5.png",
     platform: "NES",
     genre: "Platformer",
@@ -16,6 +17,7 @@ export const fallbackGames: Game[] = [
     id: 2,
     title: "The Legend of Zelda",
     price: 34.99,
+    discountedPrice: 34.99, // No discount
     imageUrl: "https://assets1.ignimgs.com/2019/06/04/legend-of-zelda-the-minish-cap---button-1559683061499.jpg",
     platform: "NES",
     genre: "Action-Adventure",
@@ -27,6 +29,7 @@ export const fallbackGames: Game[] = [
     id: 3,
     title: "Sonic the Hedgehog",
     price: 24.99,
+    discountedPrice: 19.99, // Discounted price
     imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR__opPFlQQH-Oltcnd9QVY-3CiMhbqWWKfTA&s",
     platform: "Sega Genesis",
     genre: "Platformer",
@@ -38,8 +41,9 @@ export const fallbackGames: Game[] = [
     id: 4,
     title: "Tekken",
     price: 34.99,
+    discountedPrice: 29.99, // Discounted price
     imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReQIdreZuGz_DOQqdQJA2Vo4xdikI8djvh6Q&s",
-    platform: "Playstation",
+    platform: "PlayStation",
     genre: "Fighting",
     rating: 4.7,
     releaseYear: 1994,
@@ -49,6 +53,7 @@ export const fallbackGames: Game[] = [
     id: 5,
     title: "Street Fighter II",
     price: 32.99,
+    discountedPrice: 27.99, // Discounted price
     imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE_NIBbWw-_8Ub64xtKZ3h3Fkq3dfI_8O_cg&s",
     platform: "SNES",
     genre: "Fighting",
@@ -60,6 +65,7 @@ export const fallbackGames: Game[] = [
     id: 6,
     title: "Mega Man X",
     price: 27.99,
+    discountedPrice: 22.99, // Discounted price
     imageUrl: "https://assets-prd.ignimgs.com/2020/09/04/mega-man-x-button-1599257160837.jpg",
     platform: "SNES",
     genre: "Action-Platformer",
@@ -71,8 +77,9 @@ export const fallbackGames: Game[] = [
     id: 7,
     title: "Castlevania: Symphony of the Night",
     price: 39.99,
+    discountedPrice: 39.99, // No discount
     imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA_wZ_8ncMeAPtCEXH7vwBrKyRX7KD6jLIVA&s",
-    platform: "Playstation",
+    platform: "PlayStation",
     genre: "Metroidvania",
     rating: 4.9,
     releaseYear: 1997,
@@ -82,8 +89,9 @@ export const fallbackGames: Game[] = [
     id: 8,
     title: "Final Fantasy VII",
     price: 49.99,
+    discountedPrice: 44.99, // Discounted price
     imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDcFSmC7jc-xWQhSGhpJbR7hgv8I9hvvbGyg&s",
-    platform: "Playstation",
+    platform: "PlayStation",
     genre: "RPG",
     rating: 4.9,
     releaseYear: 1997,
@@ -93,6 +101,7 @@ export const fallbackGames: Game[] = [
     id: 9,
     title: "Donkey Kong Country",
     price: 28.99,
+    discountedPrice: 23.99, // Discounted price
     imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT53C5LCTIXfAOqOVER6OOkanHqUObWd_aD1g&s",
     platform: "SNES",
     genre: "Platformer",
@@ -104,6 +113,7 @@ export const fallbackGames: Game[] = [
     id: 10,
     title: "Tetris",
     price: 19.99,
+    discountedPrice: 17.99, // Discounted price
     imageUrl: "https://m.media-amazon.com/images/I/61M3rDwh4qL.png",
     platform: "NES",
     genre: "Puzzle",
@@ -115,6 +125,7 @@ export const fallbackGames: Game[] = [
     id: 11,
     title: "Pac-Man",
     price: 19.99,
+    discountedPrice: 17.99, // Discounted price
     imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrRn2MXy9XUguUgyhuBgrnGYsrL7nynCZFOA&s",
     platform: "Arcade",
     genre: "Maze",
@@ -126,6 +137,7 @@ export const fallbackGames: Game[] = [
     id: 12,
     title: "Metal Slug",
     price: 24.99,
+    discountedPrice: 17.99, // Discounted price
     imageUrl: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/366250/capsule_616x353.jpg?t=1727156570",
     platform: "Neo Geo",
     genre: "Run and gun",
@@ -137,6 +149,7 @@ export const fallbackGames: Game[] = [
     id: 13,
     title: "Contra",
     price: 22.99,
+    discountedPrice: 17.99, // Discounted price
     imageUrl: "https://upload.wikimedia.org/wikipedia/en/6/65/Contra_cover.jpg",
     platform: "Sega Genesis",
     genre: "Run and gun",
@@ -148,6 +161,7 @@ export const fallbackGames: Game[] = [
     id: 14,
     title: "F-Zero",
     price: 26.99,
+    discountedPrice: 17.99, // Discounted price
     imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9QJKB46_rD390QN-G1vyNve6qeLR7q5FPwg&s",
     platform: "SNES",
     genre: "Racing",
@@ -159,6 +173,7 @@ export const fallbackGames: Game[] = [
     id: 15,
     title: "Chrono Trigger",
     price: 44.99,
+    discountedPrice: 17.99, // Discounted price
     imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPD1yj3G_G3ShfY2j6h9G15K4ckL1ex9DXow&s",
     platform: "SNES",
     genre: "RPG",
@@ -171,6 +186,7 @@ export const fallbackGames: Game[] = [
     id: 16,
     title: "Golden Axe",
     price: 21.99,
+    discountedPrice: 17.99, // Discounted price
     imageUrl: "https://upload.wikimedia.org/wikipedia/en/9/9c/Golden_Axe.jpg",
     platform: "Saga Genesis",
     genre: "Beat 'em up",
@@ -182,6 +198,7 @@ export const fallbackGames: Game[] = [
     id: 17,
     title: "Banjo-Kazooie",
     price: 29.99,
+    discountedPrice: 17.99, // Discounted price
     imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe8KedsunLuBKdgQwpM-hnXHRnM3UTsLg0og&s",
     platform: "N64",
     genre: "Platformer",
@@ -193,6 +210,7 @@ export const fallbackGames: Game[] = [
     id: 18,
     title: "Doom",
     price: 19.99,
+    discountedPrice: 17.99, // Discounted price
     imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp1AwHDfM48PjswBmwJRpLr1fOyGrLN7fx3w&s",
     platform: "Playstation",
     genre: "RPG",
@@ -204,6 +222,7 @@ export const fallbackGames: Game[] = [
     id: 19,
     title: "EarthBound",
     price: 49.99,
+    discountedPrice: 17.99, // Discounted price
     imageUrl: "https://upload.wikimedia.org/wikipedia/en/1/1f/EarthBound_Box.jpg",
     platform: "SNES",
     genre: "RPG",
@@ -215,6 +234,7 @@ export const fallbackGames: Game[] = [
     id: 20,
     title: "Double Dragon",
     price: 23.99,
+    discountedPrice: 17.99, // Discounted price
     imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnTHOBAJMele5f86ACNwLVr14B4I8OOKj8aA&s",
     platform: "Arcade",
     genre: "Beat 'em up",
