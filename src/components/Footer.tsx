@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
           <div>
             <div className="flex items-center mb-4">
               <Gamepad2 className="h-8 w-8 text-indigo-500 mr-2" />
-              <span className="font-bold text-xl">GameVault</span>
+              <span className="font-bold text-xl">PixelMart</span>
             </div>
             <p className="text-gray-400 mb-4">
               Your one-stop shop for all gaming needs. Find the latest titles, pre-order upcoming releases, and discover great deals.
@@ -61,18 +61,18 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 text-indigo-500 mr-2" />
-                <span className="text-gray-400">(555) 123-4567</span>
+                <span className="text-gray-400">+91 28374 29019</span>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 text-indigo-500 mr-2" />
-                <span className="text-gray-400">support@gamevault.com</span>
+                <span className="text-gray-400">support@pixelmart.com</span>
               </li>
             </ul>
           </div>
         </div>
         
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400 text-sm">
-          <p>&copy; {new Date().getFullYear()} GameVault. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} PixelMart. All rights reserved.</p>
         </div>
       </div>
     </footer>
