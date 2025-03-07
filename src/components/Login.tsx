@@ -1,4 +1,3 @@
-// src/components/Login.tsx
 import React, { useState } from "react";
 import { signInWithEmailAndPassword, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
 import { auth } from "../firebase";
@@ -32,26 +31,28 @@ const Login = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white">
-      <h2 className="text-2xl mb-6">Login</h2>
-      <form onSubmit={handleLogin} className="flex flex-col space-y-4">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-[#121212] text-white">
+      <h2 className="text-3xl font-bold mb-6 text-red-500">Login</h2>
+      <form onSubmit={handleLogin} className="bg-gray-900 p-6 rounded-lg shadow-lg w-96 space-y-4">
         <input
           type="email"
           placeholder="Email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          className="p-2 text-black rounded"
+          className="w-full p-3 bg-gray-800 text-white border border-gray-700 rounded-lg focus:ring-2 focus:ring-red-500 focus:outline-none"
         />
         <input
           type="password"
           placeholder="Password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
-          className="p-2 text-black rounded"
+          className="w-full p-3 bg-gray-800 text-white border border-gray-700 rounded-lg focus:ring-2 focus:ring-red-500 focus:outline-none"
         />
-        <button type="submit" className="bg-blue-500 p-2 rounded">Login</button>
+        <button type="submit" className="w-full p-3 bg-red-500 hover:bg-red-600 text-white font-semibold rounded-lg shadow-md transition">
+          Login
+        </button>
       </form>
-      <button onClick={handleGoogleLogin} className="bg-red-500 mt-4 p-2 rounded">
+      <button onClick={handleGoogleLogin} className="mt-4 bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-lg shadow-md">
         Sign in with Google
       </button>
     </div>
